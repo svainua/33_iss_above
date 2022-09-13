@@ -42,7 +42,7 @@ def is_night():
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
-        my_email = "irinasaratovska@gmail.com"
+        my_email = "YYY"
         password = "XXX"
         connection = smtplib.SMTP("smtp.gmail.com")
         connection.starttls()
